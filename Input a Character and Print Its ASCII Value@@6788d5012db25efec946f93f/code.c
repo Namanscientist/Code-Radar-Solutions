@@ -1,5 +1,5 @@
 #include <stdio.h>
-int mian ()
+int main ()
 {
     char chr;
     printf("Enter a single character: ");
