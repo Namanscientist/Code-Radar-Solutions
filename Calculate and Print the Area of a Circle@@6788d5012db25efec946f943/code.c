@@ -1,11 +1,8 @@
-#include <stdio.h>
-#define PI 3.14
+#include<stdio.h>
 int main()
 {
-    float n , area;
-    scanf("%f", n);
-    area = PI *n * n;
-
-    print("Area: %.2f\n", area);
+    float r = 20.76543;
+    float v = 3.14*r*r; 
+    printf("area of circle is: %f", v);
     return 0;
 }
