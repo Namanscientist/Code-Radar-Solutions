@@ -1,8 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    char str[100];
+    char str1[100];
+    char str2[100];
     scanf("%c %c", str);
-    printf("You entered: %c\n", str);
+    printf("You entered: \n");
+    printf("string 1: %s\n", str1);
+    printf("string2: %s\n", str2);
     return 0;
 }
