@@ -2,7 +2,7 @@
 int main()
 {
     int num1, num2, sum;
-    printf("Enter two space-seperated integers: ");
+    printf("Enter two space-seperated integers: \n");
     scanf("%d %d", &num1, &num2);
     sum = num1 + num2;
     printf("Sum: %d\n", sum);
