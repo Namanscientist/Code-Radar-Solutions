@@ -3,7 +3,7 @@ int main()
 {
     char str1[100];
     char str2[100];
-    scanf("%c %c", str);
+    scanf("%s %s", str);
     printf("You entered: \n");
     printf("string 1: %s\n", str1);
     printf("string2: %s\n", str2);
