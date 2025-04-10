@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main;
+int main()
 {
     float n1 , n2 , product;
     scanf("%f %f", &n1 , &n2);
