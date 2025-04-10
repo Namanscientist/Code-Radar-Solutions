@@ -1,9 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
+#define PI 3.14
 int main()
 {
-    float r;
-    scanf("%f", r);
-    float v = 3.14*r*r; 
-    printf("area of circle is: %.2f", v);
-    return 0;
+    float radius , area;
+    scanf("%f", &radius);
+    area = PI * radius * radius;
+    printf("Area: %.2f", area);
 }
