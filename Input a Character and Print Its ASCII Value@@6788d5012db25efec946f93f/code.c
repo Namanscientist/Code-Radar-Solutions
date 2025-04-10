@@ -2,7 +2,7 @@
 int mian ()
 {
     char chr;
-    scanf("%c", chr);
-    printf("ASCII value: %c\n");
+    scanf("%c", &ch);
+    printf("ASCII value: %d\n", ch);
     return 0;
 }
