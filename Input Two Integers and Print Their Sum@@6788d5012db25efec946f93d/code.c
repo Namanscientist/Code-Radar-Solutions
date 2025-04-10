@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int num1, mun2, sum;
+    int num1, num2, sum;
     printf("Enter two space-seperated integers: ");
     scanf("%d %d", &num1, &num2);
     sum = num1 + num2;
