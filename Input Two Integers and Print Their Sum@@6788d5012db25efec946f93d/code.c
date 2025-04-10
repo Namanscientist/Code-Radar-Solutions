@@ -2,9 +2,9 @@
 int main()
 {
     int num1, num2, sum;
-    printf("Enter two space-seperated integers: \n");
     scanf("%d %d", &num1, &num2);
+    printf("Two space-separated integers: \n");
     sum = num1 + num2;
-    printf("Sum: %d\n", sum);
+    printf("Sum:", sum);
     return 0;
 }
